@@ -19,7 +19,7 @@ class Preprocessor:
         self.trans = transform.PolynomialTransform()
 
     #Load the dataset and store videos and labels in separate lists
-    def load_dataset(dataset_path, emotion_labels):
+    def load_dataset(self, dataset_path, emotion_labels):
         
 
         # Arrays to store videos and corresponding labels
